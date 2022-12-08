@@ -1,0 +1,143 @@
+*{
+    margin: auto;
+}
+.main-container{
+    display: grid;
+    padding: 100px 100px;
+}
+
+h1,
+h2{
+    color: #80b700;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.heading-1{
+    padding-bottom: 30px;
+}
+
+.who-we-are{
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.who-we-are p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.mission-vision{
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.mission-vision h2{
+    text-align: center;
+    color: #80b700;
+}
+
+.mission-vision p{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.story-dream{
+    display: flex;
+    padding-bottom: 150px;
+}
+
+.story-dream h2{
+    text-align: center;
+}
+
+.story{
+    width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    background-color: #80b700;
+    border-radius: 20px;
+}
+
+.story h2{
+    color: #fff;
+}
+
+.story p{
+    text-align: justify;
+    font-size: 18px;
+    color: #fff;
+}
+
+.dream{
+    width: 50%;
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.dream p{
+    text-align: justify;
+    font-size: 18px;
+    color: #80b700;
+}
+
+.our-team{
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 4px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+.our-team h2{
+    text-align: center;
+}
+
+.our-team img{
+    width: 50%;
+    padding: 15px;
+}
+
+.developer{
+    width: 33%;
+}
+
+.developer img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.developer h3,
+.developer h4{
+    text-align: center;
+}
+
+.developer p{
+    padding: 15px;
+    text-align: justify;
+}
+
+.work-with-us{
+    padding-top: 50px;
+}
+
+.work-with-us h2{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.work-with-us p{
+    width: 50%;
+    text-align: center;
+    font-size: 18px;
+    background-color: #80b700;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+}

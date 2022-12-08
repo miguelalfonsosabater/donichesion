@@ -1,0 +1,94 @@
+
+.user_register_container{
+    display: flex;
+    flex-direction: row;
+    background-color: #f2f2f2;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.user_register_left{
+    padding-top: 60px;
+    width: 60%;
+}
+
+
+.user_register_right{
+    width: 40%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.register_image{
+    width: 750px;
+    margin-left: 100px;
+}
+
+.user-form-container{
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+
+
+
+.user-form{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register_form_title{
+    width: 100%;
+    font-size: 30px;
+    font-weight: 600;
+    color: #80b700;
+    border-bottom: #80b700 solid 3px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.register_input{
+    margin: 10px 80px;
+    border: #80b700 solid 1px;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px ;
+}
+
+.register_input:focus{
+    border: #80b700 solid 3px;
+}
+
+
+.register_bottom_part{
+    border-top: #80b700 3px solid;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #80b700;
+    text-align: center;
+}
+
+
+.signin_link:hover{
+    text-decoration: none;
+    color: #ffd700;
+    cursor: pointer;
+}
+
+
+.submit-button{
+    margin-top: 20px;
+    background-color: #80b700;
+    border: none;
+    padding: 5px 70px;
+    border-radius: 10px;
+    color: white; 
+    margin-bottom: 50px;
+}

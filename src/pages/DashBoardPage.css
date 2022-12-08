@@ -1,0 +1,10 @@
+.post-card-dashboard-container {
+    margin-top: 80px;
+    margin-left: 310px;
+
+    padding: 100px 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+

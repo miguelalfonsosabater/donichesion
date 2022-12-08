@@ -1,0 +1,116 @@
+
+
+.storypage-Container{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 82%;
+    height: auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.StoryPage-title{
+    padding-top:15px;
+}
+
+.StoryPage-close{
+    position: fixed;
+    top: 6%;
+    right: 8%;
+    color: red;
+}
+
+.StoryPage-close:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.StoryContainer{
+    display: flex;
+    flex-flow: row wrap ;
+}
+
+.storyLeft{
+    width: 50%;
+    padding: 0px 10px; 
+    border-right: #80b700 5px solid ;
+}
+
+.storyPage-image{
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.storyPage-story-need{
+    display: flex;
+    width: 500px;
+    margin-top: 10px;
+    justify-content: space-evenly;
+    color: #80b700;
+    border-bottom: #80b700 3px solid;
+    border-top: #80b700 3px solid;
+}
+
+
+.storyRight{ 
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 60px;
+
+}
+
+
+.StoryPage-body{
+    text-align: justify;
+    width: 450px;
+    padding: 20px;
+    border-bottom: #80b700 2px solid;
+}
+
+.storycard-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.storycard-user-profilepic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.story-user-profile-details-container {
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+    margin-bottom: 70px;
+}
+
+.story-user-profile-name {
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.story-user-profile-email {
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+
+.StoryPage-btn-right{
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #80b700;
+    border-radius: 15px;
+    font-size: 15px;
+    margin-left: 180px;
+    margin-top: 20px;
+}

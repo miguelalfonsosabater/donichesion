@@ -1,0 +1,33 @@
+
+.comment-form-container{
+    padding: 10px 20px ;
+    display: flex;
+    flex-flow: column;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.comment-textarea{
+    border: #80b700 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.comment-textarea:focus{
+    outline: #80b700 3px solid;
+}
+
+.comment-submit-button{
+    background-color: #80b700;
+    border: none;
+    color: #fff;
+    padding: 5px 10px ;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 370px;
+}
+
+.comment-submit-button:hover{
+    background-color: #ffd700;
+}

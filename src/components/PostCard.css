@@ -1,0 +1,132 @@
+.post-card-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 19px;
+
+}
+
+
+.postcard-user-profilepic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover
+}
+
+.postcard-top {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-profile-details-container {
+    display: flex;
+    flex-flow: column;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.user-profile-name {
+    margin-top: -1px;
+    font-size: 20px;
+}
+
+.user-profile-email {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+
+.postcard-mid {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.postcard-title {
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.postcard-story-need {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    justify-content: space-evenly;
+    color: #80b700;
+    border-bottom: #80b700 3px solid;
+    border-top: #80b700 3px solid;
+}
+
+.postcard-fund-needed {
+    font-size: 15px;
+}
+
+.postCard-story {
+    text-align: justify;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+}
+
+.purpose-fund{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.postcard-story-image {
+    width: 90%;
+    border-radius: 10px;
+}
+
+.postcard-bottom {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+
+
+.postcard-btn-left {
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #8f8f8f;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.postcard-btn-right {
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    background-color: #80b700;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.postcard-btn-left:hover {
+    background-color: black;
+}
+
+.postcard-btn-right:hover {
+    background-color: #ffd700;
+}
+
+.postcard-span {
+    color: black;
+}
+
+.postcard-comments {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    border-top: #80b700 3px solid;
+}

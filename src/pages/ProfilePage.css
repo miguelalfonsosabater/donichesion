@@ -1,0 +1,48 @@
+
+
+.Profile_Container {
+    margin-top: 80px;
+    margin-left: 350px;
+    padding: 150px 0px;
+
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.topProfile-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.profileImage{
+    width: 300px;
+    border-radius: 10%;
+}
+
+.profileName{
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.user-details{
+    padding-left: 50px;
+}
+
+.profileContacts{
+    padding-left: 10px;
+}
+
+.badges-container{
+    display: flex;
+
+}
+
+.badges-volunteer{
+    padding-top: 20px;
+    width: 80px;
+}

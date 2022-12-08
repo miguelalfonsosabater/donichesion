@@ -1,0 +1,75 @@
+
+
+.donate-background{
+    position: absolute;
+    background-color: #2c2c2c07;
+    height: 100vh;
+    width: auto;
+
+}
+
+.donate-card-container{
+    position: fixed;
+    top: 20%;
+    left: 40%;
+    background-color: #fff;
+    width: 500px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.donate-question{
+    display: block;
+    position: relative;
+    border-bottom: #80b700 3px solid;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+
+.donation-form{
+    display: flex;
+    flex-flow: column ;
+    justify-content: center;
+    align-items: center;
+}
+
+.close-button{
+    position: absolute;
+    top: 5px;
+    right: 12px;
+    color: red;
+    cursor: pointer;
+}
+
+.close-button:hover{
+    color: black;
+}
+
+.donate-card-img{
+    width: 300px;
+}
+
+.donate-input{
+    border: #80b700 1px solid;
+    display: block;
+}
+
+.donate-input:focus{
+    outline: #80b700 3px solid;
+}
+
+.donate-button{
+    border: none;
+    background-color: #80b700;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    align-self: center;
+}
