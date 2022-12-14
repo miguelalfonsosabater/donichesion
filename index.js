@@ -5,7 +5,7 @@ const cors = require('cors')
 const bodyParser = require('body-parser')
 const helmet = require('helmet')
 const server = express()
-const port = 8000
+const port = process.env.port || 8080
 
 
 // run the middlewares
